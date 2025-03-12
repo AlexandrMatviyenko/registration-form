@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('../fonts/nunito/Nunitobold.woff2');
+}
+
+body {
+    font-family: 'Nunito-Bold', sans-serif;
+    font-size: 16px;
+    color: #636363;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main__logo {
+    position: absolute;
+    top: 40px;
+}
+
+.main__logo-link {
+    text-decoration: none;
+}
+
+.form-block {
+    width: 50%;
+    padding: 194px 85px 191px 423px;
+}
+
+.form-block__title {
+    color: #000;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.form-block__offer {
+    max-width: 452px;
+    margin-top: 7px;
+}
+
+.form-block__offer-link {
+    text-decoration: none;
+    color: #636363;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.form-container {
+    margin-top: 47px;
+}
+
+.account-form-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #C6C6C4;
+    margin-top: 20px;
+}
+
+.labels {
+    color: #C6C6C4;
+    line-height: 27px;
+}
+
+.inputs {
+    outline: none;
+    font-size: 20px;
+    font-family: 'Nunito-Bold', sans-serif;
+    line-height: 27px;
+    color: #323232;
+    border: 0;
+}
+
+.agreement-block {
+    margin-top: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox-input {
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    color: #636363;
+    line-height: 27px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sign-up-btn {
+    padding: 21px 68px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    background-color: #DD3142;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.login-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.login-link{
+    text-decoration: none;
+    color: #636363;
+}
+
+.image-block {
+    width: 50%;
+    background-color: #F8F8FA;
+    padding: 254px 406px 331px 11px;
+}
+
+.main-image__img {
+    width: 100%;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popup-text {
+    text-align: center;
+}
+
+.popup-close-btn {
+    margin-top: 20px;
+    padding: 8px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-family: 'Nunito-Bold', sans-serif;
+    background-color: #DD3142;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}

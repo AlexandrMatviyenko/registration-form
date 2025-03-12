@@ -1,0 +1,204 @@
+@media screen and (max-width: 1890px) {
+    .form-block {
+        padding-left: 350px;
+    }
+
+    .image-block {
+        padding-right: 350px;
+    }
+}
+
+@media screen and (max-width: 1744px) {
+    .form-block {
+        padding-left: 300px;
+    }
+
+    .image-block {
+        padding-right: 300px;
+    }
+}
+
+@media screen and (max-width: 1644px) {
+    .form-block {
+        padding-left: 250px;
+        padding-top: 140px;
+    }
+
+    .image-block {
+        padding-right: 250px;
+    }
+}
+
+@media screen and (max-width: 1544px) {
+    .form-block {
+        padding-left: 190px;
+    }
+
+    .image-block {
+        padding-right: 190px;
+    }
+}
+
+@media screen and (max-width: 1424px) {
+    .form-block {
+        padding-left: 55px;
+        padding-right: 40px;
+        padding-top: 110px;
+    }
+
+    .image-block {
+        padding-right: 55px;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+
+    .main__logo {
+        top: 10px;
+    }
+
+    .form-block__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .form-block__offer-link {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .checkbox-label {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .form-block {
+        padding-bottom: 150px;
+        padding-top: 80px;
+    }
+
+    .image-block {
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .main {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .main__logo {
+        z-index: 3;
+    }
+
+    .form-block {
+        padding: 100px 10px 50px 10px;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .form-block__offer {
+        margin: 0 auto;
+    }
+
+    .labels {
+        color: #636363;
+    }
+
+    .inputs {
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .agreement-block {
+        justify-content: center;
+    }
+
+    .image-block {
+        padding: 0;
+        background-color: #fff;
+        width: 100%;
+        opacity: 0.1;
+        position: absolute;
+        top: 153px;
+        left: 300px;
+        z-index: 0;
+    }
+
+    .main-image__img {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 948px) {
+    body {
+        font-size: 14px;
+    }
+
+    .form-block {
+        max-width: 500px;
+    }
+
+    .form-block__title {
+        font-size: 22px;
+    }
+
+    .form-block__offer-link {
+        font-size: 16px;
+    }
+
+    .inputs {
+        font-size: 16px;
+    }
+
+    .checkbox-label {
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    .agreement-block {
+        align-items: center;
+    }
+
+    .sign-up-btn {
+        font-size: 16px;
+        padding: 12px 40px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .form-block {
+        width: 100%;
+    }
+
+    .form-block__offer {
+        margin: 0 auto;
+    }
+
+    .form-block__title {
+        font-size: 18px;
+    }
+
+    .form-block__offer-link {
+        font-size: 14px;
+    }
+
+    .image-block {
+
+        top: 190px;
+        left: 150px;
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .form-block {
+        width: 100%;
+    }
+
+    .form-block__offer {
+        margin: 0 auto;
+    }
+}
